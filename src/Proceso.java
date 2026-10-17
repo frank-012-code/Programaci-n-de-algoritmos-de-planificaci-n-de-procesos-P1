@@ -6,7 +6,7 @@ public class Proceso {
     int rafagaRestante; // Para Round Robin
     int tiempoEspera;
     int tiempoRetorno;
-    int inicioEjecucion = -1;
+
     public Proceso(String nombre, int rafaga, int llegada, int prioridad) {
         this.nombre = nombre;
         this.rafaga = rafaga;
